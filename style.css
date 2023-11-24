@@ -7,10 +7,17 @@ a {
 }
 
 .front {
-    background-image: linear-gradient(to right, #e168ff, #ffad48);
+    background-image: linear-gradient(to right, #d52fff, #ffad48);
 }
 
 .container {
+    /* border: 2px solid black; */
+    margin: auto;
+    height: max-content;
+    width: 1200px;
+}
+
+.container1 {
     /* border: 2px solid black; */
     margin: auto;
     height: 720px;
@@ -27,6 +34,10 @@ a {
 #logo {
     font-size: 35px;
     margin-left: 30px;
+}
+
+.logopart {
+    color: #fdba67;
 }
 
 #links-container {
@@ -67,7 +78,7 @@ a {
 }
 
 .card {
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     height: max-content;
     display: flex;
     margin-top: 80px;
@@ -105,4 +116,94 @@ img {
     border-radius: 7px;
     background-color: rgb(200, 197, 197);
     margin-right: 20px;
+}
+
+.pagination {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.numbers-data {
+    border: 1px solid rgb(166, 166, 166);
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.numbers {
+    padding: 10px 13px;
+    color: rgb(166, 166, 166);
+}
+
+.current {
+    background-color: #fab869;
+    color: white;
+    border-radius: 25px;
+}
+
+.footer {
+    /* border: 2px solid red; */
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(30, 39, 51);
+    width: 100%;
+}
+
+.columns {
+    display: block;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+}
+
+.footer-txt {
+    font-size: 18px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-logosdiv {
+    /* border: 2px solid black; */
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 9px 11px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgb(43, 47, 53);
+}
+
+.social-logos {
+    font-size: 25px;
+}
+
+.column-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.info-txt {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.q-data {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.q-logo {
+    font-size: 21px;
+}
+
+.q-div {
+    margin-bottom: 15px;
 }
