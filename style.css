@@ -6,19 +6,21 @@ a {
     text-decoration: none;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 .front {
     background-image: linear-gradient(to right, #d52fff, #ffad48);
 }
 
 .container {
-    /* border: 2px solid black; */
     margin: auto;
     height: max-content;
     width: 1200px;
 }
 
 .container1 {
-    /* border: 2px solid black; */
     margin: auto;
     height: 720px;
     width: 1200px;
@@ -26,7 +28,6 @@ a {
 
 .navbar {
     display: flex;
-    /* border: 2px solid red; */
     justify-content: space-between;
     color: white;
 }
@@ -34,6 +35,10 @@ a {
 #logo {
     font-size: 35px;
     margin-left: 30px;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 .logopart {
@@ -52,8 +57,12 @@ a {
     font-size: 25px;
 }
 
+.links:hover {
+    color: #fdba67;
+    cursor: pointer;
+}
+
 .about {
-    /* border: 2px solid brown; */
     height: fit-content;
     line-height: 1.4;
     word-spacing: 5px;
@@ -78,7 +87,6 @@ a {
 }
 
 .card {
-    /* border: 2px solid magenta; */
     height: max-content;
     display: flex;
     margin-top: 80px;
@@ -91,6 +99,10 @@ img {
 .card-info {
     font-size: 40px;
     font-weight: 900;
+}
+
+.card-info:hover {
+    cursor: pointer;
 }
 
 .card-data {
@@ -118,8 +130,13 @@ img {
     margin-right: 20px;
 }
 
+.brands:hover {
+    background-color: #fdba67;
+    cursor: pointer;
+    color: white;
+}
+
 .pagination {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -134,9 +151,18 @@ img {
     margin-right: 5px;
 }
 
+.numbers-data:hover {
+    border: 1px solid rgb(91, 91, 91);
+}
+
 .numbers {
     padding: 10px 13px;
     color: rgb(166, 166, 166);
+    cursor: pointer;
+}
+
+.numbers:hover {
+    color: rgb(91, 91, 91);
 }
 
 .current {
@@ -146,7 +172,6 @@ img {
 }
 
 .footer {
-    /* border: 2px solid red; */
     height: 380px;
     display: flex;
     justify-content: space-around;
@@ -157,7 +182,6 @@ img {
 
 .columns {
     display: block;
-    /* border: 2px solid green; */
     margin-top: 50px;
 }
 
@@ -171,7 +195,6 @@ img {
 }
 
 .social-logosdiv {
-    /* border: 2px solid black; */
     width: 45px;
     height: 45px;
     border-radius: 25px;
@@ -181,9 +204,16 @@ img {
     background-color: rgb(43, 47, 53);
 }
 
+.social-logosdiv:hover {
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
 .social-logos {
     font-size: 25px;
 }
+
+
 
 .column-title {
     font-size: 21px;
@@ -193,6 +223,11 @@ img {
 .info-txt {
     font-size: 18px;
     margin-left: 15px;
+}
+
+.info-txt:hover {
+    color: #fdba67;
+    cursor: pointer;
 }
 
 .q-data {
